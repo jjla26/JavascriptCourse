@@ -54,6 +54,18 @@ var campo = "nombre";
 
 console.log( persona[campo] )
 
+//Functions
+var f= 40;
+
+function primeraFuncion(){
+    console.log(f)
+    console.log(g)
+}
+var h = primeraFuncion;
+h();
+var g = 30;
+
+
 
 
 
