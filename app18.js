@@ -39,14 +39,36 @@
 // var split = k.split(" ");
 // console.log(split);
 
-var hoy  = new Date();
-var fMili = new Date(0);
-var fFija = new Date(2016,9, 21, 23, 10,15,1);
+ var hoy  = new Date();
+// var fMili = new Date(0);
+// var fFija = new Date(2016,9, 21, 23, 10,15,1);
 
 
-console.log(hoy);
-console.log(fMili);
-console.log(fFija);
+// console.log(hoy);
+// console.log(fMili);
+// console.log(fFija);
 
-console.log(hoy.getFullYear()+1)
-console.log(hoy.getMonth())
+// console.log(hoy.getFullYear()+1)
+// console.log(hoy.getMonth())
+
+console.log(hoy.getTime());
+
+// for (let i = 0; i < 15000; i++) {
+//     console.log("asd")
+    
+// }
+
+// var fin = new Date();
+// var duracion = fin.getTime() - hoy.getTime()
+// console.log(duracion/1000)
+
+ var fecha = new Date(2016,9,20)
+ console.log(fecha);
+// fecha.getDate(32)
+
+ Date.prototype.sumarDias = function(dias){
+     this.setDate( this.getDate()+dias );
+     return this
+ }
+
+ console.log(fecha.sumarDias(5))
