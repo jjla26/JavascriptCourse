@@ -32,3 +32,5 @@ var arr = ["Fernando",{
 ñlaskdñkasd
 
 console.log(arr)
+
+/*Reserved Words /*
