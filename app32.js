@@ -2,7 +2,7 @@
 
 function presionar(arg){
     console.log("asd");
-    console.log(arg);
+    console.log(arg.x, arg.y);
 }
 
 var objeto = document.getElementById("texto")
